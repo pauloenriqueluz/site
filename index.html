@@ -53,13 +53,47 @@
         <p>© 2024 Paulo Enrique. Todos os direitos reservados.</p>
 
         <section id="contato">
+
             <h2>Contato</h2>
 
             <p>Você pode entrar em contato comigo através do email:
                 <address>
                     E-mail: <a href="mailto:pauloeriqueluz@hotmail.com">pauloeriqueluz@hotmail.com</a>  <br>
                     Telefone: <a href="tel:47988845702">(47) 98884-5702</a>
-                    Endereço: <a href="https://maps.google.com/?q=Rua+dos+Pinheiros,+123,+Blumenau,+SC" target="_blank">Rua dos Pinheiros, 123, Blumenau, SC</a>
+                    Endereço: <a href="https://maps.google.com/?q=Rua+dos+Pinheiros,+123,+Blumenau,+SC" target="_blank">Rua dos Pinheiros, 123, Blumenau, SC</a><br>
                 </address>
+
+                <form action="">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="phone">Telefone:</label>
+                    <input type="tel" id="phone" name="phone"><br>
+
+                    <label for="assunto">Assunto:</label>
+                    <select id="assunto" name="assunto" required>
+                        <option value="">Selecione um assunto</option>
+                        <option value="orcamento">Orçamento</option>
+                        <option value="duvida">Dúvida</option>
+                        <option value="outro">Outro</option>
+                    
+                    </select><br>
+
+                    <label for="message">Mensagem:</label><br>
+                    <textarea id="message" name="message" rows="5" cols="30" required></textarea>
+
+                    <input type="checkbox"  id="inscricao" name="insciricao">
+                    <label for="inscricao">Desejo receber minha Newslerrer? Fique por dentro.</label>
+
+                    <br>
+
+                    <input type="submit" value="Enviar mensagem">
+
+                </form>
+        </section>
+    </footer>
 </body>
 </html>
